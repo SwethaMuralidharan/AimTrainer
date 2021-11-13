@@ -1,0 +1,42 @@
+body{
+    text-align:center;
+    background-color:rgb(180, 243, 245);
+}
+button{
+    background-color:rgb(235, 109, 109);
+    margin:20px;
+    color:white;
+    font-size:24px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.game{
+    margin:auto;
+    width:1000px;
+    height:500px;
+    position:relative;
+    cursor:crosshair;
+    border:5px solid black;
+}
+#target{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background-color: cadetblue;
+    z-index:1;
+}
+#background{
+    height:100%;
+    width:100%;
+    background-color:rgb(10, 10, 10);
+}
+#score{
+    position:absolute;
+    top:10px;
+    right:10px;
+    color:white;
+    font-size:24px;
+}
